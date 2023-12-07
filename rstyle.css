@@ -1,0 +1,114 @@
+body {
+  color: rgb(54, 104, 228);
+}
+
+h1 {
+  text-align: center;
+}
+
+form>.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+select {
+  margin: 10px;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid rgb(54, 104, 228);
+  border-radius: 10px;
+
+
+}
+
+select {
+
+  width: 274px;
+  padding: 12px;
+
+
+}
+
+.register {
+  margin: 10px;
+  width: 274px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(54, 104, 228);
+  background-image: linear-gradient(to right, magenta, rgb(55, 55, 226));
+  color: white;
+}
+.register:hover{
+  cursor: pointer;
+}
+.para {
+  text-align: center;
+  color: black;
+  position: relative;
+  max-width: 500px;
+  margin: 25px auto;
+
+}
+
+.para:before {
+  content: "-";
+  display: block;
+  height: 2px;
+  width: 190px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: red;
+}
+
+.para:after {
+  content: "-";
+  height: 2px;
+  width: 190px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.face,.goo,.app{
+  border: 2px solid magenta;
+  margin:10px;
+  padding:5px;
+  width:50px;
+  
+  border-radius: 10px;
+
+}
+.face>a>i,.goo>a>i,.app>a>i{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.acc{
+  text-align: center;
+  color:black;
+}
+.acc>a{
+  text-decoration: none;
+  color:rgb(4, 199, 199);
+}
+.btn{
+  cursor: pointer;
+  height: 20px;
+  width:50px;
+  margin-left:591px;
+  
+}

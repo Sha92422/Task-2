@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    color: rgb(54, 104, 228);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid rgb(54, 104, 228);
+    border-radius: 10px;
+
+
+}
+
+.otp {
+    margin: 10px;
+    width: 274px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(54, 104, 228);
+    background-image: linear-gradient(to right, magenta, rgb(55, 55, 226));
+
+}
+
+.otp>a {
+    color: white;
+    text-decoration: none;
+}
+
+.otp:hover {
+    cursor: pointer;
+}
+
+.b {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.b>a {
+    color: rgb(66, 145, 145);
+    text-decoration: none;
+}
+
+.btn {
+    cursor: pointer;
+    height: 20px;
+    width: 50px;
+    margin-left: 150px;
+
+}

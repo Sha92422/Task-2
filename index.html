@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="rstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="btn"><button>&lt</button></div>
+    <h1>Register to get started!</h1>
+    <form action="#" method="post">
+      <div class="container">
+        <input type="text" id="name" placeholder="Name" />
+        <input type="email" id="email" placeholder="Email Id" />
+        <input type="text" id="contact" placeholder="Contact" />
+        <input type="password" id="password" placeholder="Password" />
+        <input
+          type="password"
+          id="confirm_password"
+          placeholder="Confirm Password"
+        />
+        <select name="courses" id="guides">
+          <option value="1">Select Guide</option>
+          <option value="2">Front-End</option>
+          <option value="3">Back-End</option>
+          <option value="4">Full Stack</option>
+          <option value="5">Cloud</option>
+        </select>
+        <button class="register">Register</button>
+      </div>
+      <p class="para">Or Register With</p>
+      <div class="social">
+        <div class="face">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        <div class="goo">
+          <a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a>
+        </div>
+        <div class="app"><a href="https://www.apple.com/in/"><i class="fa-brands fa-apple"></i></a></div>
+      </div>
+      
+    </form>
+    <footer>
+      <p class="acc">Already have an account?<a href="login.html">Login Now</a></p>
+    </footer>
+  </body>
+</html>
